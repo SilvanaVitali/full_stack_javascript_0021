@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-image: url(../img/fondo.jpg);
+    background-size: auto 250px ;
+}
+
+footer {
+    background-image: url(../img/fondo.jpg);
+    background-size: auto 550px;
+    height: 15vw;
+}
+
+.modal-dialog .modal-content{
+    background-color: black;
+    color: white;
+}
+
+.modal-content{
+    height: 25em;
+}
