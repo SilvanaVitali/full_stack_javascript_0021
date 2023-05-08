@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="text-center m-5">
+        <h1>INSCRÍBETE</h1>
+    </header>
+
+    <main class="container ">
+        <div class="row mb-5 justify-content-center">
+            <form class=" col-7">
+                <div class="d-flex flex-wrap">
+                    <div class="p-3 w-50">
+                        <label for="inputNombre" class="form-label text-primary fw-semibold ps-3 mb-0">Nombre</label>
+                        <input type="text"
+                            class="form-control-plaintext bg-transparent border-primary border-0 border-bottom border-2 pt-0"
+                            id="inputNombre">
+                    </div>
+                    <div class="p-3 w-50">
+                        <label for="inputEmail" class="form-label text-primary fw-semibold ps-3 mb-0">Correo</label>
+                        <input type="email"
+                            class="form-control-plaintext bg-transparent border-primary border-0 border-bottom border-2 pt-0"
+                            id="inputEmail">
+                    </div>
+                    <div class="p-3 w-50">
+                        <label for="inputTrabajo" class="form-label text-primary fw-semibold ps-3 mb-0">Trabajo</label>
+                        <input type="text"
+                            class="form-control-plaintext bg-transparent border-primary border-0 border-bottom border-2 pt-0"
+                            id="inputTrabajo">
+                    </div>
+                    <div class="p-3 w-50">
+                        <label for="inputTelefono"
+                            class="form-label text-primary fw-semibold ps-3 mb-0">Telefono</label>
+                        <input type="tel"
+                            class="form-control-plaintext bg-transparent border-primary border-0 border-bottom border-2 pt-0"
+                            id="inputTelefono">
+                    </div>
+                </div>
+                <div class="m-3">
+                    <label for="inputSobreTi" class="form-label text-primary fw-semibold ps-3 mb-0">Sobre ti</label>
+                    <input type="text"
+                        class="form-control-plaintext bg-transparent border-primary border-0 border-bottom border-2 pt-0"
+                        id="inputSobreTi">
+                </div>
+                <button id="enviar" type="button"
+                    class="fw-light rounded-0 m-3 w-25 btn btn-primary border-0">ENVIAR</button>
+            </form>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="card m-3 p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div id="perfil" class="col-md-4 d-flex flex-column rounded-start p-3">
+                        <img src="./assets/img/avatar.png" class="img-fluid rounded-circle m-4 px-3" alt="...">
+                        <p id="nombreP" class="text-center fw-bold text-light">nombre</p>
+                        <p id="trabajoP" class="text-center text-light">trabajo</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body mb-5">
+                            <p class="card-text fw-bold">Información</p>
+                            <hr class="m-1">
+                            <div class="d-flex my-3">
+                                <div class="w-50">
+                                    <p class="card-text fw-bold">Email</p>
+                                    <p id="correoP" class="datos card-text">correo@mail.com</p>
+                                </div>
+                                <div class="w-50">
+                                    <p class="card-text fw-bold">Phone</p>
+                                    <p id="telefonoP" class="datos card-text">123456789</p>
+                                </div>
+                            </div>
+                            <p class="card-text fw-bold">Sobre Mi</p>
+                            <hr class="m-1">
+                            <p id="infoP" class="datos card-text">...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

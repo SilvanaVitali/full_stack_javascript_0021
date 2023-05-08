@@ -1,0 +1,28 @@
+body {
+    background-color: WhiteSmoke;
+}
+
+h1 {
+    background: linear-gradient(to right,DeepPink,DarkSlateBlue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background: linear-gradient(to right,MediumVioletRed,25%,DarkSlateBlue);
+}
+
+.datos {
+    color: grey;
+}
+
+#perfil {
+    background: linear-gradient(to right,OrangeRed,DarkSlateBlue);
+}
