@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="d-flex flex-column align-items-center gap-5">
+
+        <div class="contenedores d-flex flex-column p-5 w-50">
+            <h2>Elige algo para beber</h2>
+            <p>Disfruta de nuestra clásica selecció de tragos</p>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex">
+                        <input class="form-check-input" type="checkbox" value="b1" id="b1">
+                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb1">Martini</label>
+                        <p class="ms-auto mb-0" id="pb1">$2.550</p>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <input class="form-check-input" type="checkbox" value="b2" id="b2">
+                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb2">Cappuccino</label>
+                        <p class="ms-auto mb-0" id="pb2">$1.370</p>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <input class="form-check-input" type="checkbox" value="b3" id="b3">
+                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb3">Latte</label>
+                        <p class="ms-auto mb-0" id="pb3">$1.350</p>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <input class="form-check-input" type="checkbox" value="b4" id="b4">
+                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb4">Mojito</label>
+                        <p class="ms-auto mb-0" id="pb4">$2.290</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contenedores d-flex flex-column p-5 w-50">
+            <h2>Menú</h2>
+            <p>Disfruta de la mejor cocina italiana.</p>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex flex-column">
+                        <input class="form-check-input" type="checkbox" value="c1" id="c1">
+                        <label class="form-check-label fw-bold" for="flexCheckDefault" id="nc1">Insalata di riso</label>
+                        <div class="d-flex">
+                            <p>L'insalata di riso é un classico della ricete estuve. Veloce e facile da preparare
+                                l'insalata di riso si puó insaporire con gli ingredienti piú vari.</p>
+                            <img class="ms-auto" src="./assets/img/riso.jpg" alt="">
+                        </div>
+                        <p class="fw-bold" id="pc1">$6.750</p>
+                    </li>
+                    <li class="list-group-item d-flex flex-column">
+                        <input class="form-check-input" type="checkbox" value="c2" id="c2">
+                        <label class="form-check-label fw-bold" for="flexCheckDefault" id="nc2">Insalata ai cipolloti</label>
+                        <div class="d-flex">
+                            <p>Piú delicati delle cipolle, i cipollotti sono perfetti in insalata, sui pesco e sulta
+                                carne</p>
+                            <img class="ms-auto" src="./assets/img/cipollotti.png" alt="">
+                        </div>
+                        <p class="fw-bold" id="pc2">$5.990</p>
+                    </li>
+                    <li class="list-group-item d-flex flex-column">
+                        <input class="form-check-input" type="checkbox" value="c3"id="c3">
+                        <label class="form-check-label fw-bold" for="flexCheckDefault" id="nc3">Insalata caprese</label>
+                        <div class="d-flex">
+                            <p>Questo platto é un culto della cittá partenopea dove la mozzarella é protagonista di
+                                moltissimi platti.</p>
+                            <img class="ms-auto" src="./assets/img/caprese.jpg" alt="">
+                        </div>
+                        <p class="fw-bold" id="pc3">$8.250</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contenedores d-flex flex-column p-5 mb-5 w-50">
+            <h2>Cuenta</h2>
+            <p>Esperamos que disfrute de su comida ¡Ciao!</p>
+            <table class="table table-borderless mb-0 mx-auto w-50">
+                <thead>
+                  <tr>
+                    <th scope="col" class="text-start">Item</th>
+                    <th scope="col" class="text-end">Precio</th>
+                  </tr>
+                </thead>
+                <tbody id="bodyTabla">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="fw-bold text-start">Total</td>
+                        <td id="totalTabla" class="fw-bold text-end">$0</td>
+                      </tr>
+                </tfoot>
+
+              </table>
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

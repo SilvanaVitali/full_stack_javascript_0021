@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right,green,red);
+}
+
+.contenedores {
+    background-color: white;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
