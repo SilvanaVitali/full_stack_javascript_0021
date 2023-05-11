@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 70%;
+}
+
+button {
+    width: 100%;
+    background-color: Teal;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+    text-align: center;
+}
