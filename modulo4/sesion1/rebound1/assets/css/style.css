@@ -1,0 +1,22 @@
+h1, p {
+    background: linear-gradient(to right, Tomato, DarkOrchid);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+label {
+    color: MediumPurple;
+}
+
+input {
+    border: 0px;
+    border-bottom: 2px solid MediumPurple;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(to right, MediumVioletRed, Navy);
+    color: whitesmoke;
+    border-color: blue;
+}
