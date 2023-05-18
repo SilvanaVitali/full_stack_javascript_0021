@@ -1,0 +1,6 @@
+body {
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0), rgb(255, 255, 255)), url('../img/training-828732_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
