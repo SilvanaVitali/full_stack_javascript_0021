@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(rgba(33, 83, 60, 0.6), rgba(33, 83, 60, 0.6)), url('../img/concert.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input,
+label,
+p {
+    color: whitesmoke;
+}
+
+.form-control::placeholder {
+    color: whitesmoke;
+}
