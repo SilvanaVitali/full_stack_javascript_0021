@@ -1,0 +1,16 @@
+.container {
+    background-color: #38469C;
+    border: #0B99D8 10px solid;
+}
+
+header {
+    color: whitesmoke;
+}
+
+.form-control::focus  .form-label {
+    color: red;
+  } 
+
+  input::focus + label {
+    color: orange;
+  }
