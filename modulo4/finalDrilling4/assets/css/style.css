@@ -1,0 +1,92 @@
+.circulo {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.color1 {
+    background-color: #FA8072;
+}
+
+.color6 {
+    background-color: #90EE90;
+}
+
+.color11 {
+    background-color: #87CEFA;
+}
+
+.straWars {
+    position: relative;
+    border-left: 0.3rem solid gainsboro;
+    list-style: none;
+    left: 2rem;
+}
+
+.punto {
+    position: absolute;
+    height: 0.8em;
+    width: 0.8rem;
+    border-radius: 50%;
+    background-color: #F1C40F;
+    left: calc(-2.6rem);
+    bottom: 50%;
+}
+
+.rango {
+    font-size: 0.8rem;
+    width: 3rem;
+    position: absolute;
+    left: calc(-6rem);
+    bottom: 48.8%;
+}
+
+.detalle {
+    animation-name: rotar;
+    animation-duration: 0.5s;
+}
+
+.titulo {
+    perspective: 450px;
+}
+
+.scroll-text {
+    color: #F1C40F;
+    position: relative;
+    animation: scroll 6s linear infinite;
+}
+
+img {
+    height: 7rem;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(180deg, rgb(0, 0, 0, 1) 5%, rgb(0, 0, 0, 0) 100%);
+}
+
+@keyframes scroll {
+    from {
+        top: 30px;
+        transform: translateZ(0) rotateX(50deg)
+    }
+
+    to {
+        top: -180px;
+        transform: translateZ(-800px) rotateX(51deg)
+    }
+}
+
+@keyframes rotar {
+    from {
+        transform: translateX(-10rem) rotateZ(180deg) scale(0.5)
+    }
+
+    to {
+        transform: none
+    }
+}
