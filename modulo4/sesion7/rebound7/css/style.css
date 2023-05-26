@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #086DE9, #2AA3FB);
+}
+
+section {
+    background-color: white;
+    margin: 8%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border: solid 1px silver;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+
+button {
+    background-color: #095FD9;
+    border: solid 1px silver;
+    border-radius: 0.3rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
