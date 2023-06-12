@@ -12,32 +12,32 @@
 </head>
 
 <body>
-    <section class="container text-center d-flex flex-column mt-5">
+    <section class="container text-center d-flex flex-column mt-5 mx-auto col-11 col-sm-7 col-md-4">
         <div id="contenedorPantalla" class="bg-black text-white text-end align-middle px-3">
             <h2 id="pantalla" class="my-2"></h2>
         </div>
-        <div class="bg-secondary bg-opacity-25 ">
-            <div id="operadores" class="d-flex justify-content-evenly pt-3 pb-1">
-                <button id="btnS" value="S" type="button" class="btn btn-info text-white btn-lg fw-bold">+</button>
-                <button id="btnR" value="R" type="button" class="btn btn-info text-white btn-lg fw-bold">-</button>
-                <button id="btnM" value="M" type="button" class="btn btn-info text-white btn-lg fw-bold">*</button>
-                <button id="btnD" value="D" type="button" class="btn btn-info text-white btn-lg fw-bold">/</button>
-            </div>
+        <div id="operadores" class="bg-secondary bg-opacity-25 d-flex justify-content-around pt-3 pb-1">
+            <!-- <div  class="d-flex justify-content-evenly pt-3 pb-1"> -->
+                <button id="btnS" value="S" type="button" class="btn btn-info text-white btn-lg fw-bold col-2">+</button>
+                <button id="btnR" value="R" type="button" class="btn btn-info text-white btn-lg fw-bold col-2">-</button>
+                <button id="btnM" value="M" type="button" class="btn btn-info text-white btn-lg fw-bold col-2">*</button>
+                <button id="btnD" value="D" type="button" class="btn btn-info text-white btn-lg fw-bold col-2">/</button>
+            <!-- </div> -->
         </div>
-        <div id="teclado" class="bg-secondary bg-opacity-25 px-2 pb-2">
-            <button id="btn7" value="7" type="button" class="btn btn-light btn-lg fw-bold">7</button>
-            <button id="btn4" value="4" type="button" class="btn btn-light btn-lg fw-bold">4</button>
-            <button id="btn1" value="1" type="button" class="btn btn-light btn-lg fw-bold">1</button>
-            <button id="btn0" value="0" type="button" class="btn btn-light btn-lg fw-bold">0</button>
-            <button id="btn8" value="8" type="button" class="btn btn-light btn-lg fw-bold">8</button>
-            <button id="btn5" value="5" type="button" class="btn btn-light btn-lg fw-bold">5</button>
-            <button id="btn2" value="2" type="button" class="btn btn-light btn-lg fw-bold">2</button>
-            <button id="btnP" value="P" type="button" class="btn btn-light btn-lg fw-bold">.</button>
-            <button id="btn9" value="9" type="button" class="btn btn-light btn-lg fw-bold">9</button>
-            <button id="btn6" value="6" type="button" class="btn btn-light btn-lg fw-bold">6</button>
-            <button id="btn3" value="3" type="button" class="btn btn-light btn-lg fw-bold">3</button>
-            <button id="btnA" value="A" type="button" class="btn btn-danger btn-lg fw-bold">AC</button>
-            <button id="btnI" value="I" type="button" class="btn btn-light btn-lg fw-bold">=</button>
+        <div id="teclado" class="bg-secondary bg-opacity-25 pb-2 d-flex flex-column flex-wrap justify-content-evenly align-items-center">
+            <button id="btn7" value="7" type="button" class="btn btn-light btn-lg fw-bold col-2">7</button>
+            <button id="btn4" value="4" type="button" class="btn btn-light btn-lg fw-bold col-2">4</button>
+            <button id="btn1" value="1" type="button" class="btn btn-light btn-lg fw-bold col-2">1</button>
+            <button id="btn0" value="0" type="button" class="btn btn-light btn-lg fw-bold col-2">0</button>
+            <button id="btn8" value="8" type="button" class="btn btn-light btn-lg fw-bold col-2">8</button>
+            <button id="btn5" value="5" type="button" class="btn btn-light btn-lg fw-bold col-2">5</button>
+            <button id="btn2" value="2" type="button" class="btn btn-light btn-lg fw-bold col-2">2</button>
+            <button id="btnP" value="P" type="button" class="btn btn-light btn-lg fw-bold col-2">.</button>
+            <button id="btn9" value="9" type="button" class="btn btn-light btn-lg fw-bold col-2">9</button>
+            <button id="btn6" value="6" type="button" class="btn btn-light btn-lg fw-bold col-2">6</button>
+            <button id="btn3" value="3" type="button" class="btn btn-light btn-lg fw-bold col-2">3</button>
+            <button id="btnA" value="A" type="button" class="btn btn-danger btn-lg fw-bold col-2 px-0">AC</button>
+            <button id="btnI" value="I" type="button" class="btn btn-light btn-lg fw-bold col-2">=</button>
         </div>
     </section>
 

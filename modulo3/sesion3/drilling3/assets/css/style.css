@@ -22,14 +22,14 @@
 }
 
 #porcentaje {
-    font-size: 5vw;
+    font-size: 4rem;
 }
 
 #caja-codigo {
     background: rgb(44, 61, 80);
     color: rgb(14, 171, 140);
-    height: 6vw;
-    font-size: 1vw;
+    height: 5rem;
+    font-size: 0.8rem;
 }
 
 #codigo {

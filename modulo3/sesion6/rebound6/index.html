@@ -15,67 +15,70 @@
 
     <main class="d-flex flex-column align-items-center gap-5">
 
-        <div class="contenedores d-flex flex-column p-5 w-50">
+        <div class="contenedores d-flex flex-column p-5 col-10 col-sm-7">
             <h2>Elige algo para beber</h2>
             <p>Disfruta de nuestra clásica selecció de tragos</p>
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex">
                         <input class="form-check-input" type="checkbox" value="b1" id="b1">
-                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb1">Martini</label>
+                        <label class="form-check-label ps-2" for="b1" id="nb1">Martini</label>
                         <p class="ms-auto mb-0" id="pb1">$2.550</p>
                     </li>
                     <li class="list-group-item d-flex">
                         <input class="form-check-input" type="checkbox" value="b2" id="b2">
-                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb2">Cappuccino</label>
+                        <label class="form-check-label ps-2" for="b2" id="nb2">Cappuccino</label>
                         <p class="ms-auto mb-0" id="pb2">$1.370</p>
                     </li>
                     <li class="list-group-item d-flex">
                         <input class="form-check-input" type="checkbox" value="b3" id="b3">
-                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb3">Latte</label>
+                        <label class="form-check-label ps-2" for="b3" id="nb3">Latte</label>
                         <p class="ms-auto mb-0" id="pb3">$1.350</p>
                     </li>
                     <li class="list-group-item d-flex">
                         <input class="form-check-input" type="checkbox" value="b4" id="b4">
-                        <label class="form-check-label ps-2" for="flexCheckDefault" id="nb4">Mojito</label>
+                        <label class="form-check-label ps-2" for="b4" id="nb4">Mojito</label>
                         <p class="ms-auto mb-0" id="pb4">$2.290</p>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="contenedores d-flex flex-column p-5 w-50">
+        <div class="contenedores d-flex flex-column p-5 col-10 col-sm-7">
             <h2>Menú</h2>
             <p>Disfruta de la mejor cocina italiana.</p>
             <div class="card">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex flex-column">
                         <input class="form-check-input" type="checkbox" value="c1" id="c1">
-                        <label class="form-check-label fw-bold" for="flexCheckDefault" id="nc1">Insalata di riso</label>
-                        <div class="d-flex">
-                            <p>L'insalata di riso é un classico della ricete estuve. Veloce e facile da preparare
+                        <label class="form-check-label fw-bold" for="c1" id="nc1">Insalata di riso</label>
+                        <div class="d-flex flex-wrap">
+                            <p class="col-md-9">L'insalata di riso é un classico della ricete estuve. Veloce e facile da
+                                preparare
                                 l'insalata di riso si puó insaporire con gli ingredienti piú vari.</p>
-                            <img class="ms-auto" src="./assets/img/riso.jpg" alt="">
+                            <img class="m-auto col-3 col-md-2" src="./assets/img/riso.jpg" alt="">
                         </div>
                         <p class="fw-bold" id="pc1">$6.750</p>
                     </li>
                     <li class="list-group-item d-flex flex-column">
                         <input class="form-check-input" type="checkbox" value="c2" id="c2">
-                        <label class="form-check-label fw-bold" for="flexCheckDefault" id="nc2">Insalata ai cipolloti</label>
-                        <div class="d-flex">
-                            <p>Piú delicati delle cipolle, i cipollotti sono perfetti in insalata, sui pesco e sulta
+                        <label class="form-check-label fw-bold" for="c2" id="nc2">Insalata ai cipolloti</label>
+                        <div class="d-flex flex-wrap">
+                            <p class="col-md-9">Piú delicati delle cipolle, i cipollotti sono perfetti in insalata, sui
+                                pesco e sulta
                                 carne</p>
-                            <img class="ms-auto" src="./assets/img/cipollotti.png" alt="">
+                            <img class="m-auto col-3 col-md-2" src="./assets/img/cipollotti.png" alt="">
                         </div>
                         <p class="fw-bold" id="pc2">$5.990</p>
                     </li>
                     <li class="list-group-item d-flex flex-column">
-                        <input class="form-check-input" type="checkbox" value="c3"id="c3">
-                        <label class="form-check-label fw-bold" for="flexCheckDefault" id="nc3">Insalata caprese</label>
-                        <div class="d-flex">
-                            <p>Questo platto é un culto della cittá partenopea dove la mozzarella é protagonista di
+                        <input class="form-check-input" type="checkbox" value="c3" id="c3">
+                        <label class="form-check-label fw-bold" for="c3" id="nc3">Insalata caprese</label>
+                        <div class="d-flex flex-wrap">
+                            <p class="col-md-9">Questo platto é un culto della cittá partenopea dove la mozzarella é
+                                protagonista di
                                 moltissimi platti.</p>
-                            <img class="ms-auto" src="./assets/img/caprese.jpg" alt="">
+                            <img class="m-auto col-3 col-md-2" src="./assets/img/caprese.jpg" alt="">
                         </div>
                         <p class="fw-bold" id="pc3">$8.250</p>
                     </li>
@@ -83,26 +86,27 @@
             </div>
         </div>
 
-        <div class="contenedores d-flex flex-column p-5 mb-5 w-50">
+        <div class="contenedores d-flex flex-column p-5 mb-5 col-10 col-sm-7">
             <h2>Cuenta</h2>
             <p>Esperamos que disfrute de su comida ¡Ciao!</p>
-            <table class="table table-borderless mb-0 mx-auto w-50">
-                <thead>
-                  <tr>
-                    <th scope="col" class="text-start">Item</th>
-                    <th scope="col" class="text-end">Precio</th>
-                  </tr>
-                </thead>
-                <tbody id="bodyTabla">
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td class="fw-bold text-start">Total</td>
-                        <td id="totalTabla" class="fw-bold text-end">$0</td>
-                      </tr>
-                </tfoot>
-
-              </table>
+            <div class="col-10 col-sm-8 align-self-center">
+                <table class="table table-borderless mb-0 mx-auto w-100">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-start">Item</th>
+                            <th scope="col" class="text-end">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bodyTabla">
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="fw-bold text-start">Total</td>
+                            <td id="totalTabla" class="fw-bold text-end">$0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </div>
 
     </main>

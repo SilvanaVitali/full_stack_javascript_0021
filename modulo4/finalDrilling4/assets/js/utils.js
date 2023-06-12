@@ -31,7 +31,7 @@ const getPersonaje = (id) => {
 
 const mostrarPersonaje = (personaje, codigo) => {
     $(`#seccion${codigo}`).append(`                
-    <div id="${personaje.id}-${codigo}" class="d-flex card mb-3 me-3 col-3 shadow detalle" style="max-width: 540px;">
+    <div id="${personaje.id}-${codigo}" class="d-flex card mb-3 me-3 col-11 col-sm-7 col-md-5 col-lg-3 shadow detalle" style="max-width: 540px;">
         <div class="d-flex g-0">
             <div class="mt-4">
                 <div class="circulo color${codigo} ms-4"></div>

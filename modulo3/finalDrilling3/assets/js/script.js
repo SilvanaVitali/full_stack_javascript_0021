@@ -68,7 +68,7 @@ btnCalcular.addEventListener('click', function () {
     let formCalcular = document.getElementById("formCalcular");
     inputPresupueto.value !== "" ? presupuesto.innerHTML = formatoNumero(inputPresupueto.value) : alert("Debes ingresar un presupuesto");
     actualizarSaldo();
-    if (presupuesto.innerHTML > 0) {
+    if (presupuesto.innerHTML.replaceAll(".", "") > 0) {
         formAnadir.removeAttribute("disabled");
         formCalcular.setAttribute("disabled", true);
     } else {
